@@ -6,7 +6,7 @@ const app = express()
 app.use(bodyParser.json())
 
 app.get('/', (req, res) => {
-  res.send({ message: 'test' })
+  res.send({ message: 'sucmanuts' })
 })
 
 const PORT = process.env.PORT || 5000
